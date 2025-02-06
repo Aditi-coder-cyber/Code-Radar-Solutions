@@ -2,9 +2,8 @@
 int main(){
     int a,msb;
     scanf("%d",&a);
-    if (a&1){
-        mcb=1<<(a-1);
-        if(a&mcb){
+        msb=1<<(a-1);
+        if(a&msb){
             printf("Set %d",a);
         }
         else{
