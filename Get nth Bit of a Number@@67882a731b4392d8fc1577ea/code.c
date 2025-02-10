@@ -3,6 +3,6 @@ int main(){
 int num,n;
     scanf("%d %d", &num,&n);
     int bit = num, n;
-    printf("%d\n", n, bit);
+    printf("%d", n, bit);
     return 0;
 }
