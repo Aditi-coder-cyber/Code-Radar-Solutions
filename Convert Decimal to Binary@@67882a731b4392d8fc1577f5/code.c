@@ -8,5 +8,5 @@ void decimaltobinary(int num){
 int main(){
     int num;
     scanf("%d",&num);
-    
+     decimaltobinary(num);
 }
