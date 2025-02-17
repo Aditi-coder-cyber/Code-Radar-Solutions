@@ -12,5 +12,4 @@ int main() {
     int num;
     scanf("%d", &num);
     decimalToBinary(num);
-    return 0;
 }
