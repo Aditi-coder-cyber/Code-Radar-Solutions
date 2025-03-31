@@ -11,7 +11,6 @@ int main(){
         }printf("\n");
     }return 0;
 }
-    scanf("%d",&num);
     for(i=1;i>=num;i--){
         for(space=1;space<=num-i;space++){
             printf(" ");
