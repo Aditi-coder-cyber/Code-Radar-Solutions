@@ -9,7 +9,7 @@ int main() {
     for (int i = 0; i <= rows; i++) {
         // Print spaces for the mirroring effect
         for (int space = 1; space <= rows - i; space++) {
-            printf("  "); // Two spaces for better visual alignment
+            printf(" "); // Two spaces for better visual alignment
         }
 
         // Print stars
