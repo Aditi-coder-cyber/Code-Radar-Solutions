@@ -10,7 +10,7 @@ int main(){
             printf("*");
         }printf("\n");
     }
-    for(i=1;i>=num;i--){
+    for(i=num-1;i>=1;i--){
         for(space=1;space<=num-i;space++){
             printf(" ");
         }
