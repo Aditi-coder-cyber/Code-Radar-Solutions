@@ -1,4 +1,4 @@
-#iniclude <stdio.h>
+#include <stdio.h>
 int main(){
     int num,i,j;
     scanf("%d",&num);
