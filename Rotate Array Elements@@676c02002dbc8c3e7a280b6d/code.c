@@ -22,7 +22,8 @@ reverse(arr, k, n - 1);
 
 }
 
-int main() { int n, k;
+int main() { 
+    int n, k;
 
 // Read size of array
 scanf("%d", &n);
@@ -41,9 +42,8 @@ rotateArray(arr, n, k);
 
 // Print the rotated array
 for (int i = 0; i < n; i++) {
-    printf("%d ", arr[i]);
+    printf("%d\n ", arr[i]);
 }
-printf("\n");
 
 return 0;
 
