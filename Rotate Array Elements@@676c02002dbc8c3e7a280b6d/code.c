@@ -42,7 +42,7 @@ rotateArray(arr, n, k);
 
 // Print the rotated array
 for (int i = 0; i < n; i++) {
-    printf("%d\n ", arr[i]);
+    printf("%d\n", arr[i]);
 }
 
 return 0;
